@@ -1,5 +1,5 @@
-FROM python:3
+FROM python:latest
 
-ADD turn-on-off.py .
+ADD main.py .
 
-CMD ["python", "turn-on-off.py"]
+CMD ["python", "main.py"]
