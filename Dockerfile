@@ -1,5 +1,7 @@
-FROM python:latest
+FROM python:3.8-slim-buster
 
-ADD main.py .
+WORKDIR /app
 
-CMD ["python", "main.py"]
+COPY . .
+
+CMD ["python3", "main.py"]
