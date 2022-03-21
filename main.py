@@ -53,4 +53,5 @@ def getResources(token):
   data = res.read()
   return {'message': 'ok'} 
 
-main()
+if __name__ == '__main__':
+  main()
