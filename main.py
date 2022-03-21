@@ -51,6 +51,6 @@ def getResources(token):
   # Get and read response data
   res = conn.getresponse()
   data = res.read()
-  return  { 'message': 'ok'} 
+  return {'message': 'ok'} 
 
 main()
